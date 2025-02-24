@@ -1,10 +1,10 @@
-**Currency Converter**
+# Currency Converter
 
-**Overview**
+## Overview
 
 This is a simple Currency Converter program written in Java that fetches real-time exchange rates from an online API. It allows users to convert any amount from one currency to another using live exchange rates.
 
-**Features**
+## Features
 
 - Converts an entered amount from one currency to another.
 
@@ -14,7 +14,7 @@ This is a simple Currency Converter program written in Java that fetches real-ti
 
 - Runs in the command line without requiring an IDE.
 
-**Prerequisites**
+## Prerequisites
 
 - Java 21+ (Ensure you have Java installed and added to your system PATH).
 
@@ -22,7 +22,7 @@ This is a simple Currency Converter program written in Java that fetches real-ti
 
 - org.json Library (Download the JAR file from Maven Repository).
 
-**Installation**
+## Installation
 
 1. Download and install Java if you haven’t already.
 
@@ -34,7 +34,7 @@ javac -cp ".;json-20250107.jar" CurrencyConverter.java
 4. Run the program:
 java -cp ".;json-20250107.jar" CurrencyConverter
 
-**Usage**
+## Usage
 
 1. Run the program.
 
@@ -46,7 +46,7 @@ java -cp ".;json-20250107.jar" CurrencyConverter
 
 5. The program will fetch the latest exchange rate and display the converted amount.
 
-**Example Output**
+## Example Output
 
 Enter amount: 100  
 
@@ -56,10 +56,10 @@ Enter target currency (e.g., INR, GBP): INR
 
 100.00 USD is 8300.50 INR
 
-**License**
+## License
 
 This project is for educational purposes and is free to use.
 
-**Author**
+## Author
 
 Created by Samiran Maulick. Contributions and improvements are welcome!
