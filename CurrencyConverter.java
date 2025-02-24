@@ -3,10 +3,10 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
-import org.json.*;  // Requires org.json library for JSON parsing
+import org.json.*; 
 
 public class CurrencyConverter {
-    private static final String API_KEY = "b2da337459b6aa2bb94c8d75";  // Replace with your API key
+    private static final String API_KEY = "b2da337459b6aa2bb94c8d75";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
 
     public static void main(String[] args) {
@@ -56,7 +56,7 @@ public class CurrencyConverter {
             if (jsonResponse.getString("result").equals("success")) {
                 return jsonResponse.getJSONObject("conversion_rates").getDouble(to);
             } else {
-                return -1;  // Return -1 if the API request fails
+                return -1;  // Returning -1 in case the API request fails
             }
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
